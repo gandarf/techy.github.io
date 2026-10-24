@@ -1,0 +1,146 @@
+version: 5.1.0
+variant: default
+appearance: light
+logo:
+  text: gandarf's blog
+logo_dark: null
+head:
+  favicon: /img/favicon.svg
+  manifest:
+    name: null
+    short_name: null
+    start_url: null
+    theme_color: null
+    background_color: null
+    display: standalone
+    icons:
+      - src: ''
+        sizes: ''
+        type: null
+  open_graph:
+    title: null
+    type: null
+    url: null
+    image: null
+    site_name: null
+    author: null
+    description: null
+    twitter_card: null
+    twitter_id: null
+    twitter_site: null
+    google_plus: null
+    fb_admins: null
+    fb_app_id: null
+  structured_data:
+    title: null
+    description: null
+    url: null
+    author: null
+    publisher: null
+    publisher_logo: null
+    image: null
+  meta:
+    - ''
+  rss: null
+navbar:
+  sticky: false
+  menu:
+    홈: /
+    글 목록: /archives/
+    카테고리: /categories/
+    태그: /tags/
+  links:
+    GitHub:
+      icon: fab fa-github
+      url: https://github.com/gandarf
+footer:
+  copyright: © 2026 gandarf
+  links: {}
+article:
+  highlight:
+    theme: atom-one-light
+    dark_theme: atom-one-dark
+    clipboard: true
+    fold: unfolded
+    fold_preview: 0
+  readtime: true
+  update_time: true
+  outdated_notice:
+    enable: false
+    days: 365
+  licenses: {}
+search:
+  type: insight
+  index_pages: true
+donates: []
+sidebar:
+  left:
+    sticky: false
+  right:
+    sticky: false
+widgets:
+  - type: profile
+    position: left
+    author: gandarf
+    avatar: /img/avatar.png
+    avatar_rounded: true
+    follow_link: https://github.com/gandarf
+    social_links:
+      GitHub:
+        icon: fab fa-github
+        url: https://github.com/gandarf
+  - type: toc
+    position: left
+    index: true
+    collapsed: true
+    depth: 3
+  - type: recent_posts
+    position: right
+    limit: 5
+  - type: categories
+    position: right
+    show_count: true
+  - type: tags
+    position: right
+    show_count: true
+plugins:
+  animejs: true
+  back_to_top: true
+  baidu_analytics:
+    tracking_id: null
+  bing_webmaster:
+    tracking_id: null
+  busuanzi: false
+  cnzz:
+    id: null
+    web_id: null
+  gallery: true
+  google_analytics:
+    tracking_id: null
+  hotjar:
+    site_id: null
+  katex: false
+  mathjax: false
+  matomo:
+    url: null
+    site_id: null
+    disable_cookies: false
+  outdated_browser: false
+  pjax: true
+  prefetch: false
+  progressbar: true
+  statcounter:
+    project: null
+    security: null
+  twitter_conversion_tracking:
+    pixel_id: null
+  umami:
+    website_id: null
+    script_url: https://cloud.umami.is/script.js
+    domains: null
+  waline_pageview: false
+providers:
+  cdn: jsdelivr
+  cdn_overrides: {}
+  fontcdn: google
+  iconcdn: fontawesome
